@@ -2,6 +2,10 @@
   background-color: black;
 }
 
+.space {
+  padding-top: 10%;
+}
+
 .flex {
   display: flex;
   justify-content: center;
