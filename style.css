@@ -24,8 +24,62 @@
   grid-gap: 6%;
 }
 
+.container {
+  text-align: center;
+}
+
+.inline {
+  display: inline-flex;
+  align-items: center;
+}
+
+.text {
+  margin-right: 10px;
+}
+
+#termo {
+  padding-right: 30px;
+}
+
+.search-button {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  left: 10px;
+  padding-top: 10px;
+}
+
+.fas.fa-search {
+  font-size: 16px;
+  color: #000;
+}
+
 .menu {
   box-shadow: 0px 5px 6px;
   border-radius: 100px;
   padding: 10px;
+}
+
+/* Estilize o campo de entrada e o botão */
+#termo {
+  padding-right: 30px; /* Adapte o valor conforme necessário */
+}
+
+.search-button {
+  position: relative;
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+/* Estilize o ícone de lupa */
+.fas.fa-search {
+  position: absolute;
+  top: 50%;
+  right: 5px; /* Adapte o valor conforme necessário */
+  transform: translateY(-50%);
+  font-size: 16px; /* Adapte o tamanho conforme necessário */
+  color: #000; /* Defina a cor do ícone conforme necessário */
 }
