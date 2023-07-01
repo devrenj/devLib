@@ -68,9 +68,8 @@
   padding: 10px;
 }
 
-/* Estilize o campo de entrada e o botão */
 #termo {
-  padding-right: 30px; /* Adapte o valor conforme necessário */
+  padding-right: 30px;
 }
 
 .search-button {
