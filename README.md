@@ -44,3 +44,4 @@ Linguagem Natural
 
 - Notion
 - Google Keep
+- LEARN.MD no diretórios dos meus estudos
