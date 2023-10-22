@@ -1,0 +1,112 @@
+* {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+  }
+
+  .menuDev {
+    background: linear-gradient(rgba(132, 0, 255, 0.5), rgb(132, 0, 255), blueviolet, blueviolet, #000000fa);
+  }
+
+  .menuTopo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .menuTopo li {
+    list-style-type: none;
+    margin: 2px;
+    padding: 1px 10px 0px 10px;
+    border: 2px solid white;
+    border-radius: 20px;
+    color: rgba(192, 192, 192, 0.507);
+  }
+
+  .menuTopo li a:hover {
+    color: cadetblue;
+  }
+
+  .menuTopo li a {
+    color: rgba(192, 192, 192, 0.507);
+    text-decoration: none;
+  }
+
+  #githubIcone {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+    padding: 1px 10px 0px 10px;
+    color: black
+  }
+
+  #githubIcone a {
+    text-decoration: none;
+  }
+
+  #githubIcone img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  #local, #caminho, #caminho1, #caminho2 {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border: 0;
+  }
+  
+  .tituloDaPagina {
+    background-color: black;
+    width: fit-content;
+    padding: 0px 20px 5px 20px;
+    margin: auto;
+    color: white;
+    border-radius: 0 0 20px 20px;
+    font-weight: 500;
+    color: blueviolet;
+    margin-bottom: 15px;
+  }
+
+  .conteudo {
+    list-style-type: none;
+    border: 3px solid black;
+    border-radius: 0 0 10px 10px;
+    max-height: 80vh;
+    height: 80vh;
+    background: linear-gradient(to bottom, blueviolet, #fff, #fff, #fff);
+  }
+
+  .conteudo ol {
+    border: 2px solid blueviolet;
+    margin: 20px;
+    border-radius: 20px 20px 0 0;
+    list-style: none;
+    padding: 10;
+  }
+
+    .tituloConteudo {
+    background-color: blueviolet;
+    border-radius: 15px 15px 0px 0px;
+    padding: 0px;
+    color: #fff;
+    display: grid;
+    justify-content: center;
+  }
+
+  .conteudo ol li {
+    padding: 10px;
+    background-color: #fff;
+  }
+  
+
+
+
+  .rodape {
+    display: grid;
+    font-size: small;
+    justify-content: center;
+  }
