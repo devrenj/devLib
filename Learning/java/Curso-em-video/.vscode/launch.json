@@ -1,0 +1,84 @@
+{
+    // Use o IntelliSense para saber mais sobre os atributos possíveis.
+    // Focalizar para exibir as descrições dos atributos existentes.
+    // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Aula12",
+            "request": "launch",
+            "mainClass": "aula12.Aula12",
+            "projectName": "JAVA-learning_401b6249"
+        },
+        {
+            "type": "java",
+            "name": "Launch Prova",
+            "request": "launch",
+            "mainClass": "aula13.Prova",
+            "projectName": "JAVA-learning_401b6249"
+        },
+        {
+            "type": "java",
+            "name": "Launch Prova",
+            "request": "launch",
+            "mainClass": "Prova",
+            "projectName": "JAVA-learning_401b6249"
+        },
+        {
+            "type": "java",
+            "name": "Launch Variaveis",
+            "request": "launch",
+            "mainClass": "Variaveis",
+            "projectName": "JAVA-learning_401b6249"
+        },
+        {
+            "type": "java",
+            "name": "Launch ProjetoYTB",
+            "request": "launch",
+            "mainClass": "aula14.ProjetoYTB",
+            "projectName": "JAVA-learning_401b6249"
+        },
+        {
+            "type": "java",
+            "name": "Launch Aula13",
+            "request": "launch",
+            "mainClass": "aula13.Aula13",
+            "projectName": "JAVA-learning_401b6249"
+        },
+        {
+            "type": "java",
+            "name": "Launch Aula12",
+            "request": "launch",
+            "mainClass": "Aula12",
+            "projectName": "JAVA-learning_401b6249"
+        },
+        {
+            "type": "java",
+            "name": "Launch Aula11",
+            "request": "launch",
+            "mainClass": "Aula11",
+            "projectName": "JAVA-learning_401b6249"
+        },
+        {
+            "type": "java",
+            "name": "Launch ProjetoPessoas",
+            "request": "launch",
+            "mainClass": "projetopessoas.ProjetoPessoas",
+            "projectName": "JAVA-learning_401b6249"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch ProjetoLivro",
+            "request": "launch",
+            "mainClass": "projetolivro.ProjetoLivro",
+            "projectName": "JAVA-learning_401b6249"
+        }
+    ]
+}
