@@ -1,28 +1,86 @@
 * {
   font-family: 'Roboto', sans-serif;
+  font-weight: 300;
   margin: 0;
   padding: 0;
   box-sizing: border-box;  
   }
 
-  .menuDev {
-    background: linear-gradient(rgba(132, 0, 255, 0.5), rgb(132, 0, 255), blueviolet, blueviolet, #000000fa);
+/* Media Queries */
+
+@media only screen and (max-width: 400px) {
+  .tituloDaPagina {
+      margin-left: 0;
+      margin-right: 0;
+      margin-bottom: 15px;
+      background-color: black;
+      color: blueviolet;
+      border-radius: 0;
+      width: 100%;
   }
 
-  .menuTopo {
+  .tituloConteudo, .tituloConteudo h1 {
+    background: linear-gradient(to top, #ffffff00, blueviolet);
+    border-radius: 15px 15px 0px 0px;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-shadow: 0px 2px 2px black;
+  }
+
+  .conteudo {
+    list-style-type: none;
+    border-top: 2px solid black;
+    border-radius: 0 0 10px 10px;
+    max-height: 100%;
+    height: auto;
+    background: linear-gradient(to bottom, rgba(137, 43, 226, 0.644), #ffffff00, #ffffff00, #ffffff00, #ffffff50);
+  }
+
+  .conteudo ol {
+    width: 300px;
+  }
+}
+
+html {
+  width: auto;
+  height: auto;
+}
+
+  body {
+    height: 100vh;
+    background-image: url('https://images.wallpaperscraft.com/image/single/keyboard_backlight_purple_212155_3840x2160.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  main {
+    width: auto;
+    height: 100%;
+  }
+
+  .menuDev {
+    background: linear-gradient(blueviolet, rgba(132, 0, 255, 0.5), blueviolet);
+    color: #fff;
+    padding-bottom: 3px;
+    padding-top: 3px;
+  }
+
+  .texto:hover {
+    color: lightgreen;
   }
 
   .menuTopo li {
     list-style-type: none;
-    margin: 2px;
+    /* margin: 2px; */
     padding: 1px 10px 0px 10px;
-    border: 2px solid white;
+    /* border: 2px solid white; */
     border-radius: 20px;
     color: rgba(192, 192, 192, 0.507);
+    font-size: large;
+    
   }
 
   .menuTopo li a:hover {
@@ -30,18 +88,28 @@
   }
 
   .menuTopo li a {
-    color: rgba(192, 192, 192, 0.507);
+    text-shadow: 0px 0px 5px #000;
+    color: #fff;
     text-decoration: none;
+    font-size: larger;
   }
 
+  #devRenjIcone {
+    margin-left: 10px;
+    padding: 25px;
+    background-image: url('../../../devrenj.github.io/photo.jpg');
+    background-size: cover;
+    box-shadow: -2px 0px 7px #000000;
+    border-radius: 100px;
+  }
+  
   #githubIcone {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin: 2px;
-    padding: 1px 10px 0px 10px;
-    color: black
+    margin-right: 10px;
+    padding: 25px;
+    background-image: url('https://img.icons8.com/fluency/48/000000/github.png');
+    background-size: cover;
+    box-shadow: 2px 0px 7px #000000;
+    border-radius: 100px;
   }
 
   #githubIcone a {
@@ -59,54 +127,94 @@
     border: 0;
   }
   
-  .tituloDaPagina {
+    .tituloDaPagina {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
     background-color: black;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0px 0px 7px black;
+    font-weight: 500;
+    font-size: small;
     width: fit-content;
     padding: 0px 20px 5px 20px;
-    margin: auto;
-    color: white;
-    border-radius: 0 0 20px 20px;
-    font-weight: 500;
     color: blueviolet;
-    margin-bottom: 15px;
+  }
+  
+    .tituloConteudo {
+    background: linear-gradient(to top, #ffffff00, blueviolet);
+    border-radius: 15px 15px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-shadow: 0px 2px 2px black;
   }
 
   .conteudo {
     list-style-type: none;
-    border: 3px solid black;
+    border-top: 2px solid black;
     border-radius: 0 0 10px 10px;
     max-height: 80vh;
     height: 80vh;
-    background: linear-gradient(to bottom, blueviolet, #fff, #fff, #fff);
+    background: linear-gradient(to bottom, rgba(137, 43, 226, 0.644), rgba(137, 43, 226, 0.322), #ffffff00);
   }
 
   .conteudo ol {
-    border: 2px solid blueviolet;
+    border: 2px solid rgb(79, 0, 153);
     margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 700px;
+    width: 100%;
     border-radius: 20px 20px 0 0;
     list-style: none;
-    padding: 10;
-  }
-
-    .tituloConteudo {
-    background-color: blueviolet;
-    border-radius: 15px 15px 0px 0px;
-    padding: 0px;
-    color: #fff;
-    display: grid;
-    justify-content: center;
   }
 
   .conteudo ol li {
-    padding: 10px;
+    padding: 20px;
+    /* background: linear-gradient(to top, #fff, #fff, #fff, #00000000); */
     background-color: #fff;
   }
+
+  .conteudo ol li a {
+    color: blueviolet;
+    text-decoration: none;
+    font-size: large;
+    font-weight: 700;
+  }
   
+  .conteudo ol li a:hover {
+    color: rgb(91, 0, 177);
+    text-decoration: underline;
+  }
+
+  .conteudo h1 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  
+  .conteudo ul {
+    list-style-type: disc;
+    list-style-position: inside;
+  }
+
+.rodape {
+  margin-top: auto;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  text-shadow: 0px 0px 5px #000;
+  color: #ffffff50;
+  font-size: small;
+  letter-spacing: 2px;
+  background: linear-gradient(to top, #000, #ffffff00);
+}
 
 
 
-  .rodape {
+  /* .rodape {
     display: grid;
     font-size: small;
     justify-content: center;
-  }
+  } */

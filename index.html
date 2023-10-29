@@ -4,37 +4,75 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="/assets/style/devrenj.css">
+  <link rel="stylesheet" href="assets/style/markdown.css">
+  <link rel="stylesheet" href="assets/style/alignment.css">
   
-  <!--GitHub official icons-->
-  <link rel="mask-icon" href="https://github.githubassets.com/pinned-octocat.svg" color="#000000">
-  <link rel="alternate icon" class="js-site-favicon" type="image/png" href="https://github.githubassets.com/favicons/favicon.png">
-  <link rel="icon" class="js-site-favicon" type="image/svg+xml" href="https://github.githubassets.com/favicons/favicon.svg">
-  <!--Font Awesome-->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <!--Configurações de compartilhamento-->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Roberto Nóbrega Jr." />
+  <meta property="og:description" content="Trabalhando com Markdown" />
+  <meta property="og:url" content="http://www.renj.dev.br/DevLib/learning/markdown/index.html" />
+  <meta property="og:image" content="https://raw.githubusercontent.com/devrenj/devrenj.github.io/main/photo.jpg" />
+  <meta name="theme-color" content="#fff" />
 
-
-  <title>Development Library</title>
+  <!-- Font Roboto: GOOGLE -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+  <title>Trabalhando com Markdown</title>
 </head>
 <body>
-<div class="space"></div>
-  <div class="container">
-    <div class="inline">
-      <p class="text">Pesquisar na Wikipedia:</p>
-      <form action="https://pt.wikipedia.org/wiki/Especial:Pesquisar" method="get">
-        <input type="text" id="termo" name="search" required>
-        <button type="submit" class="search-button" aria-label="Pesquisar">
-          <i class="fas fa-search"></i>
-        </button>
-      </form>
-    </div>
-  </div>
+  
+  <main class="flex-col">
+    <header class="menuDev max top">
+      <ol class="menuTopo max flex-row">
+        <a href="http://renj.dev.br">
+        <li id="devRenjIcone" class="flex-row start">
+            <!-- Personal Photo -->
+      </li>
+    </a>
+        <li class="flex-row max center">
+          <a href="https://renj.dev.br/devLib/">
+            <span class="texto">Dev</span>eloper <span class="texto">Lib</span>rary</a></li>
 
-<p class="flexTxt" style="padding-top: 5%; padding-bottom: 10%;"><b>&#128679; Este projeto está sob construção &#9888;&#65039;</b></p>
-<div class="flexIcons">
-  <div class="menu" >
-    <a href="http://devrenj.github.io"><img src="https://img.icons8.com/fluency/48/000000/left.png" alt="Voltar"></a>
-  </div>
-</div>
+      <a href="http://github.com/devrenj">
+        <li id="githubIcone" class="flex-row end">
+            <!-- GitHub  -->
+      </li>
+    </a>
+      </ol>
+    </header>
+    
+    <section class="conteudo max flex-col">
+      <p class="tituloDaPagina flex-col top">Markdown</p>
+      <span class="tituloPagina">
+
+      </span>
+      <ol>
+        <h1 class="tituloConteudo center">Conversor</h1>
+        <li>
+          <a class="linkTitulo" href="mkd-conversor.html">Markdown para HTML</a>
+          <ul>
+            <li>Aplicação desenvolvida para ferramenta de desenvolvimento de sites a partir de arquivos em markdown</li>
+          </ul>
+        </li>
+      </ol>
+      
+      <ol>
+        <h1 class="tituloConteudo">Ferramentas</h1>
+        <li><a href="#">Html Constructor</a>
+          <!-- <li><a href="#">Inserir item</a></li></li> -->
+          <ul>
+            <li>Mais produtividade e menos código</li>
+          </ul>
+        </li>
+      </ol>
+    </section>
+    <footer class="rodape flex-col max bottom">
+      <p>2023 (c) Roberto Nóbrega Jr.</p>
+    </footer>
+
+  </main>
+
 </body>
 </html>
