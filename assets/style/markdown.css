@@ -95,7 +95,7 @@ main {
 #devRenjIcone a {
     /* margin-left: 10px; */
     padding: 25px;
-    background-image: url('../../../devrenj.github.io/photo.jpg');
+    background-image: url('../../../devrenj.github.io/src/images/photo.jpg');
     background-size: cover;
     box-shadow: -2px 0px 7px #000000;
     border-radius: 100px;
