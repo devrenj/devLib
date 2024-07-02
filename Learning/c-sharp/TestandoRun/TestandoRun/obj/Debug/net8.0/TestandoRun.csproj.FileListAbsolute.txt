@@ -1,0 +1,15 @@
+C:\Users\REDNOBRE\Desktop\Dev\Git + Github\MeusProjetos\devLib\Learning\c-sharp\TestandoRun\TestandoRun\bin\Debug\net8.0\TestandoRun.exe
+C:\Users\REDNOBRE\Desktop\Dev\Git + Github\MeusProjetos\devLib\Learning\c-sharp\TestandoRun\TestandoRun\bin\Debug\net8.0\TestandoRun.deps.json
+C:\Users\REDNOBRE\Desktop\Dev\Git + Github\MeusProjetos\devLib\Learning\c-sharp\TestandoRun\TestandoRun\bin\Debug\net8.0\TestandoRun.runtimeconfig.json
+C:\Users\REDNOBRE\Desktop\Dev\Git + Github\MeusProjetos\devLib\Learning\c-sharp\TestandoRun\TestandoRun\bin\Debug\net8.0\TestandoRun.dll
+C:\Users\REDNOBRE\Desktop\Dev\Git + Github\MeusProjetos\devLib\Learning\c-sharp\TestandoRun\TestandoRun\bin\Debug\net8.0\TestandoRun.pdb
+C:\Users\REDNOBRE\Desktop\Dev\Git + Github\MeusProjetos\devLib\Learning\c-sharp\TestandoRun\TestandoRun\obj\Debug\net8.0\TestandoRun.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\REDNOBRE\Desktop\Dev\Git + Github\MeusProjetos\devLib\Learning\c-sharp\TestandoRun\TestandoRun\obj\Debug\net8.0\TestandoRun.AssemblyInfoInputs.cache
+C:\Users\REDNOBRE\Desktop\Dev\Git + Github\MeusProjetos\devLib\Learning\c-sharp\TestandoRun\TestandoRun\obj\Debug\net8.0\TestandoRun.AssemblyInfo.cs
+C:\Users\REDNOBRE\Desktop\Dev\Git + Github\MeusProjetos\devLib\Learning\c-sharp\TestandoRun\TestandoRun\obj\Debug\net8.0\TestandoRun.csproj.CoreCompileInputs.cache
+C:\Users\REDNOBRE\Desktop\Dev\Git + Github\MeusProjetos\devLib\Learning\c-sharp\TestandoRun\TestandoRun\obj\Debug\net8.0\TestandoRun.sourcelink.json
+C:\Users\REDNOBRE\Desktop\Dev\Git + Github\MeusProjetos\devLib\Learning\c-sharp\TestandoRun\TestandoRun\obj\Debug\net8.0\TestandoRun.dll
+C:\Users\REDNOBRE\Desktop\Dev\Git + Github\MeusProjetos\devLib\Learning\c-sharp\TestandoRun\TestandoRun\obj\Debug\net8.0\refint\TestandoRun.dll
+C:\Users\REDNOBRE\Desktop\Dev\Git + Github\MeusProjetos\devLib\Learning\c-sharp\TestandoRun\TestandoRun\obj\Debug\net8.0\TestandoRun.pdb
+C:\Users\REDNOBRE\Desktop\Dev\Git + Github\MeusProjetos\devLib\Learning\c-sharp\TestandoRun\TestandoRun\obj\Debug\net8.0\TestandoRun.genruntimeconfig.cache
+C:\Users\REDNOBRE\Desktop\Dev\Git + Github\MeusProjetos\devLib\Learning\c-sharp\TestandoRun\TestandoRun\obj\Debug\net8.0\ref\TestandoRun.dll

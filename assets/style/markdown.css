@@ -13,13 +13,13 @@
         margin-right: 0;
         margin-bottom: 15px;
         background-color: black;
-        color: blueviolet;
+        color: #9900ff;
         border-radius: 0;
         width: 100%;
     }
 
     .tituloConteudo, .tituloConteudo h1 {
-        background: linear-gradient(to top, #ffffff00, blueviolet);
+        background: linear-gradient(to top, #ffffff00, #9900ff);
         border-radius: 15px 15px 0px 0px;
         display: flex;
         flex-direction: column;
@@ -61,7 +61,7 @@ main {
 }
 
 .menuDev {
-    background: linear-gradient(blueviolet, rgba(132, 0, 255, 0.5), blueviolet);
+    background: linear-gradient(#9900ff, rgba(132, 0, 255, 0.5), #9900ff);
     color: #fff;
     padding-bottom: 3px;
     padding-top: 3px;
@@ -137,7 +137,7 @@ main {
 }
 
 .tituloConteudo {
-    background: linear-gradient(to top, #ffffff00, blueviolet);
+    background: linear-gradient(to top, #ffffff00, #9900ff);
     border-radius: 15px 15px 0px 0px;
     display: flex;
     flex-direction: column;
